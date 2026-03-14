@@ -1,0 +1,10 @@
+2026-03-14 13:33:19 | INFO     | Pipeline started | input=data.csv | config=config.yaml | output=metrics.json | log_file=run.log
+2026-03-14 13:33:19 | INFO     | Config loaded | seed=42 | window=5 | version=v1
+2026-03-14 13:33:19 | INFO     | Random seed set: 42
+2026-03-14 13:33:19 | INFO     | Dataset loaded | rows=10000 | path=data.csv
+2026-03-14 13:33:19 | INFO     | Dataset validated | columns confirmed | close dtype=float64
+2026-03-14 13:33:19 | INFO     | Rolling mean computed | window=5 | NaN rows excluded: 4
+2026-03-14 13:33:19 | INFO     | Signals generated | valid rows: 9996 | signal=1 count: 4989
+2026-03-14 13:33:19 | INFO     | Metrics assembled | rows_processed=10000 | signal_rate=0.4991 | latency_ms=51
+2026-03-14 13:33:19 | INFO     | Output written | path=metrics.json
+2026-03-14 13:33:19 | INFO     | Job completed successfully | status=success | duration=51ms

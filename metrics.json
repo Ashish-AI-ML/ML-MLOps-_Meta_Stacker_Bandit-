@@ -1,0 +1,8 @@
+{
+  "status": "success",
+  "rows_processed": 10000,
+  "signal_rate": 0.4991,
+  "latency_ms": 51,
+  "version": "v1",
+  "seed": 42
+}
